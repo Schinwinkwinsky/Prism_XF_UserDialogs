@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="UserDialogsPrism.Views.MenuPage"
+    Title="{Binding Title}" >
+    
+	<ContentPage.Content>
+        <StackLayout Padding="10" Spacing="20">
+            <Button Text="ActionSheet" Command="{Binding ActionSheetCommand}" HorizontalOptions="Center"/>
+            <Button Text="Alert" Command="{Binding AlertCommand}" HorizontalOptions="Center"/>
+            <Button Text="Confirm" Command="{Binding ConfirmCommand}" HorizontalOptions="Center"/>
+            <Button Text="Toast" Command="{Binding ToastCommand}" HorizontalOptions="Center"/>
+        </StackLayout>
+	</ContentPage.Content>
+    
+</ContentPage>

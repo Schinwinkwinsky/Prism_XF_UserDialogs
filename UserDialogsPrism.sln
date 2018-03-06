@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDialogsPrism", "UserDialogsPrism\UserDialogsPrism.csproj", "{54634C63-8698-4286-8873-3095ED8E98EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDialogsPrism.Droid", "UserDialogsPrism.Droid\UserDialogsPrism.Droid.csproj", "{8F61E3EF-6C39-4775-B848-3388CCCE6B46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54634C63-8698-4286-8873-3095ED8E98EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54634C63-8698-4286-8873-3095ED8E98EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54634C63-8698-4286-8873-3095ED8E98EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54634C63-8698-4286-8873-3095ED8E98EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F61E3EF-6C39-4775-B848-3388CCCE6B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F61E3EF-6C39-4775-B848-3388CCCE6B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F61E3EF-6C39-4775-B848-3388CCCE6B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F61E3EF-6C39-4775-B848-3388CCCE6B46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
